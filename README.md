@@ -5,9 +5,9 @@
   
   ## <h2 id = "associatedLinks"> Associated Links </h2>
 
-  GIT Pages Link: 
+  GIT Pages Link: https://ggrove87.github.io/React_Portfolio/
 
-GIT Repository Link: 
+GIT Repository Link: https://github.com/ggrove87/React_Portfolio
 
   ## <h2 id = "projectDescription"> Project Description </h2>
   
