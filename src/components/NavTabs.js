@@ -5,15 +5,15 @@ import React from 'react';
 function NavTabs({ currentPage, handlePageChange }) {
   return (
     <ul className="nav nav-tabs">
+      <h2>| Gene Grove |</h2>
       <li className="nav-item">
         <a
           href="#home"
           onClick={() => handlePageChange('Home')}
-          //*  TODO: BONUS: Add a comment explaining what kind of operator this is and what it is checking for
-
+          
           className={currentPage === 'Home' ? 'nav-link active' : 'nav-link'}
         >
-          Home
+          Portfolio
         </a>
       </li>
       <li className="nav-item">
@@ -24,18 +24,18 @@ function NavTabs({ currentPage, handlePageChange }) {
 
           className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}
         >
-          About
+          About Me
         </a>
       </li>
       <li className="nav-item">
         <a
-          href="#blog"
-          onClick={() => handlePageChange('Blog')}
+          href="#resume"
+          onClick={() => handlePageChange('Resume')}
           //  TODO: Add a comment explaining what this logic is doing
 
-          className={currentPage === 'Blog' ? 'nav-link active' : 'nav-link'}
+          className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'}
         >
-          Blog
+          Resume
         </a>
       </li>
       <li className="nav-item">
