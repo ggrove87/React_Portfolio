@@ -1,0 +1,174 @@
+/* defining global variables for use throughout the stylesheet */
+:root {
+    --primary: darkblue;
+    --secondary: white;
+}
+
+/* setting global styles for the stylesheet */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* setting body backround color to off white */
+body {
+    background-color: #d9dcd6;
+}
+/* formatting header */
+header {
+    padding: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: var(--primary);
+    color: var(--secondary);
+    position: relative;
+}
+/* formatting all h1 */
+h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+/* formatting div values within header and justifying items to the right */
+header div {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+  
+}
+/* setting header list and list items */
+header div ul {
+    list-style-type: none;
+}
+
+header div ul li {
+    display: inline-flex;
+    margin-left: 25px;
+    
+}
+
+/* formats all a & p elements */
+a {
+    color: var(--secondary);
+    text-decoration: none;
+}
+
+p {
+    font-size: 16px;
+    padding: auto;
+}
+
+/* uploads background image in the geneGrove div within the html file */
+#geneGrove {
+ 
+    height: 2000px;
+    width: 100vw;
+    margin-bottom: 25px;
+    background-image: url("../images/Image\ of\ Me.jpg");
+    background-size: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+/* formats the content class */
+.content {
+    width: 100%;
+    display: inline-block;
+    margin-left: 20px;
+    position: relative;
+}
+
+/* formats the page-sections class */
+.page-sections {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: var(--primary);
+    color: var(--secondary);
+    position: relative;
+    flex-wrap: wrap;
+    
+}
+
+
+.page-sections h2 {
+    margin-bottom: 20px;
+}
+
+
+
+/* sets project container to flex justifying center */
+#projects-container {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    justify-content: center;
+
+}
+
+.myProjects {
+    color: var(--primary);
+    border: 5px solid var(--primary);
+    margin: 10px;
+    padding-top: 30px;
+    border-radius: 15px;
+    justify-content: center;
+}
+/* sets project1 width */
+#project1 {
+    width: 225%;
+}
+
+/* sets the z-index to make header able to overlay the section */
+.card-header {
+    z-index: 1;
+    color: var(--secondary);
+    border: 1px solid;
+    margin: -40px -10px 0;
+    position: relative;
+    background-color: var(--primary);
+    justify-content: left;
+
+}
+
+/* set coolWebsite format (specifically the  */
+#coolWebsite {
+  position: relative;
+}
+
+/* set project-photos formats (specifically the images) */
+.project-photos {
+    max-height: 400px;
+    position: relative;
+    flex-wrap: wrap;
+}
+
+
+/* formats the footer */
+footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+footer h2 {
+    font-size: 20px;
+}
+
+/* media screen controls when page is resized */
+@media screen and (max-width: 768px) {
+
+    #projects-container {
+        flex-direction: column;
+        width: 50%;
+    }
+
+    .project-photos {
+        flex-direction: column;
+        width: auto
+    }
+}
