@@ -119,7 +119,8 @@ p {
 }
 /* sets project1 width */
 #project1 {
-    width: 225%;
+    width: 100vw;
+    position: relative;
 }
 
 /* sets the z-index to make header able to overlay the section */
