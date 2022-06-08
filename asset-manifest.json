@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/React_Portfolio/static/css/main.32cdcd23.css",
+    "main.js": "/React_Portfolio/static/js/main.3981dfb7.js",
+    "static/media/Project_2_ScreenShot.PNG": "/React_Portfolio/static/media/Project_2_ScreenShot.bcf0b97c956e18aab5c0.PNG",
+    "static/media/Image of Me.jpg": "/React_Portfolio/static/media/Image of Me.47097c73fe4440cc89c4.jpg",
+    "static/media/E-Commerce_Back_End.PNG": "/React_Portfolio/static/media/E-Commerce_Back_End.6c01ae4950ee27d29df7.PNG",
+    "static/media/TeamProfileGenerator.PNG": "/React_Portfolio/static/media/TeamProfileGenerator.87cfea2ec797ead5a061.PNG",
+    "static/media/Gene-Grove-Resume.pdf": "/React_Portfolio/static/media/Gene-Grove-Resume.b66db2fc5cff12f3b3ea.pdf",
+    "static/media/NoteTaker.PNG": "/React_Portfolio/static/media/NoteTaker.85797bc45fcb9b7d463f.PNG",
+    "index.html": "/React_Portfolio/index.html",
+    "main.32cdcd23.css.map": "/React_Portfolio/static/css/main.32cdcd23.css.map",
+    "main.3981dfb7.js.map": "/React_Portfolio/static/js/main.3981dfb7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.32cdcd23.css",
+    "static/js/main.3981dfb7.js"
+  ]
+}
