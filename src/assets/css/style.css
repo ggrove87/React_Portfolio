@@ -119,8 +119,7 @@ p {
 }
 /* sets project1 width */
 #project1 {
-    width: 100vw;
-    position: relative;
+    width: 80vw
 }
 
 /* sets the z-index to make header able to overlay the section */
@@ -138,6 +137,7 @@ p {
 /* set coolWebsite format (specifically the  */
 #coolWebsite {
   position: relative;
+  width: 100%;
 }
 
 /* set project-photos formats (specifically the images) */
@@ -145,6 +145,7 @@ p {
     max-height: 400px;
     position: relative;
     flex-wrap: wrap;
+    width: 100%;
 }
 
 
